@@ -1,0 +1,6 @@
+model,accuracy,precision,recall,f1,roc_auc,best_cv_f1,best_params
+random_forest,0.875,1.0,0.75,0.8571428571428571,0.9375,,
+xgboost,0.75,0.6666666666666666,1.0,0.8,0.75,,
+logistic_regression,0.75,0.75,0.75,0.75,0.9375,,
+linear_svm,0.75,0.75,0.75,0.75,0.9375,,
+logistic_regression_tuned,0.75,0.75,0.75,0.75,0.9375,0.6904761904761904,"{'model__C': 2.0, 'tfidf__max_features': 1000, 'tfidf__ngram_range': (1, 1)}"

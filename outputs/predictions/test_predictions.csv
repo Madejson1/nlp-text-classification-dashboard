@@ -1,0 +1,9 @@
+text,actual,predicted,spam_probability,actual_label,predicted_label,is_correct,error_type
+Could you please confirm the meeting agenda?,0,0,0.13333333333333333,ham,ham,True,correct
+URGENT! Your account has been selected for a cash reward.,1,1,0.6466666666666666,spam,spam,True,correct
+Limited time offer! Get cheap loans instantly.,1,0,0.4266666666666667,spam,ham,False,false_negative
+Thanks for your help yesterday.,0,0,0.4533333333333333,ham,ham,True,correct
+Claim your free gift card today.,1,1,0.54,spam,spam,True,correct
+"I am running late, sorry.",0,0,0.38,ham,ham,True,correct
+See you at the office tomorrow.,0,0,0.15333333333333332,ham,ham,True,correct
+Free entry in our weekly competition. Text WIN to claim.,1,1,0.5733333333333334,spam,spam,True,correct
